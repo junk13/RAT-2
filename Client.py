@@ -21,9 +21,9 @@ def traitement(donnees):
                         # Affichage du message
                         print donnees
                         # Execution de la commande
-                        rsp = run_command(datas[1])
+                        response = run_command(datas[1])
                         # Récursif, on continu la conversation
-                        main(rsp)
+                        main(response)
 
 def envoi(msg):
 	# Envoi de la réponse
